@@ -1,15 +1,16 @@
-import React from 'react';
-import MovieNavbar from '../components/Navbar/MovieNavbar.Component';
+import React from "react";
+import MovieNavbar from "../components/Navbar/MovieNavbar.Component";
 
-
-const MovieLayoutHoc = (Component) => ({ ...props}) => {
-  return ( 
-  <div>
-    <MovieNavbar />
+const MovieLayoutHoc =
+  (Component) =>
+  ({ ...props }) => {
+    return (
+      <div>
+        <MovieNavbar />
         <Component {...props} />
-        <div>Footer</div>
-  </div>
-  );
-};
+        <div></div>
+      </div>
+    );
+  };
 
 export default MovieLayoutHoc;

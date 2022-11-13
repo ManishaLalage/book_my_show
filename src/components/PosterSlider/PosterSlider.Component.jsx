@@ -1,22 +1,3 @@
-
-// import React from "react";
-// import Slider from "react-slick";
-// import Poster from "../Poster/Poster.Component";
-
-// const PosterSlider = (props) => {
-
-//   const { posters, title, subtitle, isDark, config } = props;
-//   return (
-//     <div>PosterSlider</div>
-//   )
-// }
-
-// export default PosterSlider ;
-
-
-
-
-
 import React from "react";
 import Slider from "react-slick";
 import Poster from "../Poster/Poster.Component";
